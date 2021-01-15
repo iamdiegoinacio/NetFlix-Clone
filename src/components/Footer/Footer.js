@@ -4,6 +4,9 @@ import './Footer.css';
 
 export default() => {
     return (
-        <h1></h1>
+        <footer>
+            <p>Criado por Diego Inácio</p>
+            <p>Direitos de imagem para NetFlix</p>
+        </footer>
     )
 }
