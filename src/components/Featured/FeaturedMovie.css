@@ -86,3 +86,31 @@
     color: #999;
 }
 
+@media(max-width: 760px){
+    .featured{
+        height: 90vh;
+    }
+
+    .featured--name{
+        font-size: 2.5em;
+    }
+
+    .featured--info{
+        font-size: 1em;
+    }
+
+    .featured--description{
+        font-size: 0.875em;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+
+    .featured--watchbutton,
+    .featured--mylistbuttom{
+        font-size: 1em;
+    }
+
+    .featured--genres{
+        font-size: 0.875em;
+    }
+}
