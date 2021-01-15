@@ -14,6 +14,11 @@ export default() => {
     const loadAll = async() => {
       let list = await Tmdb.getHomeList();
       setMovieList(list);
+
+      //Get aleatory featured 
+      let originals = list.filter(i=>i.slug === 'originals');
+      let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
+      let chosen = originals[0].items.results[randomChosen]; 
     }
 
     loadAll();
