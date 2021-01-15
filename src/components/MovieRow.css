@@ -6,3 +6,7 @@
     margin: 0px 0px 0px 30px
 }
 
+.movieRow--listarea{
+    overflow-x: hidden !important;
+    padding-left: 30px;
+}
